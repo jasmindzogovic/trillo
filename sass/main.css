@@ -335,7 +335,7 @@ body {
   border: 3px solid #fff;
 }
 .recommend__photo:not(:last-child) {
-  margin-right: -1.5rem;
+  margin-right: -2rem;
 }
 
 .review {
@@ -441,6 +441,18 @@ body {
   background-color: var(--color-grey-light-one);
   box-shadow: var(--shadow-dark);
   min-height: 50rem;
+}
+@media (max-width: 75rem) {
+  .container {
+    margin: 0;
+    max-width: 100%;
+  }
+}
+@media (max-width: 68.75rem) {
+  .container {
+    font-size: 8px;
+    max-width: 100%;
+  }
 }
 
 .header {
